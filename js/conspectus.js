@@ -36,13 +36,35 @@
 
 // countClients(18, 25);
 
-function calculateTotal(number) {
-  let sum = 0;
-  let i = 1;
-  while (i <= number) {
-    sum += i;
-    i++;
-  }
-  return sum;
+// function calculateTotal(number) {
+//   let sum = 0;
+//   let i = 1;
+//   while (i <= number) {
+//     sum += i;
+//     i++;
+//   }
+//   return sum;
+// }
+// console.log(calculateTotal(5));
+// for (let i = 0; i <= 9; i++) {
+//   console.log(i);
+// }
+
+// function calculateEvenTotal(number) {
+//   let sum = 0;
+//   for (let i = 0; i <= number; i += 2) {
+//     sum += i;
+//   }
+//   return sum;
+// }
+
+// console.log(calculateEvenTotal(7));
+// console.log(calculateEvenTotal(18));
+
+// Доповни код таким чином, щоб у змінну number записувалося перше число у проміжку від start до end, яке ділиться на 5 без остачі.
+const start = 6;
+const end = 17;
+let number;
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
 }
-console.log(calculateTotal(5));
